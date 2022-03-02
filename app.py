@@ -116,20 +116,7 @@ if __name__ == '__main__':
 #   app.run(host="0.0.0.0", port=5052,debug=True)
     recoverymanager1 = RecoveryManager()
     recoverymanager1.register_kafka_listener('recoverykafka')
-    recoverymanager2 = RecoveryManager()
-    recoverymanager2.register_kafka_listener('recoverykafka')
-    recoverymanager3 = RecoveryManager()
-    recoverymanager3.register_kafka_listener('recoverykafka')
-    recoverymanager4 = RecoveryManager()
-    recoverymanager4.register_kafka_listener('recoverykafka')            
-    recoverymanager5 = RecoveryManager()
-    recoverymanager5.register_kafka_listener('recoverykafka')
-    recoverymanager6 = RecoveryManager()
-    recoverymanager6.register_kafka_listener('recoverykafka')
-    recoverymanager7 = RecoveryManager()
-    recoverymanager7.register_kafka_listener('recoverykafka')
-    recoverymanager8 = RecoveryManager()
-    recoverymanager8.register_kafka_listener('recoverykafka')            
+    
 
 
 
